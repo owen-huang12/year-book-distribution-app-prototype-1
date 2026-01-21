@@ -1,0 +1,4 @@
+com/yearbook/controller/YearbookController.class
+com/yearbook/entity/StudentEntry.class
+com/yearbook/repository/StudentRepository.class
+com/yearbook/YearbookDistributionApplication.class

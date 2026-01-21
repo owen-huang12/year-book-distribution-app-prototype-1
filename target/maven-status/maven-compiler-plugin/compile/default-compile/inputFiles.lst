@@ -1,2 +1,4 @@
-/Users/o.penguin.h/Documents/GitHub/year-book-distribution-app-prototype-1/src/main/java/com/yearbook/YearbookDistributionApplication.java
-/Users/o.penguin.h/Documents/GitHub/year-book-distribution-app-prototype-1/src/main/java/com/yearbook/controller/YearbookController.java
+/Users/o.penguin.h/Documents/GitHub/year-book-distribution-app-prototype-1/backend/main/java/com/yearbook/entity/StudentEntry.java
+/Users/o.penguin.h/Documents/GitHub/year-book-distribution-app-prototype-1/backend/main/java/com/yearbook/repository/StudentRepository.java
+/Users/o.penguin.h/Documents/GitHub/year-book-distribution-app-prototype-1/backend/main/java/com/yearbook/YearbookDistributionApplication.java
+/Users/o.penguin.h/Documents/GitHub/year-book-distribution-app-prototype-1/backend/main/java/com/yearbook/controller/YearbookController.java
