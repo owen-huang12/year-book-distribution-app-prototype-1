@@ -4,13 +4,14 @@ import {useEffect, useState} from 'react';
 function Table() {
 
   const [data, setData] = useState([
-    { id: 1, studentId: 100032202, name: 'Owen', status: 'CLAIMED'}
+    { id: 1, studentId: 100032202, status: 'CLAIMED', name: 'Owen'}
   ])
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/students')
+    fetch('/api/students')
       .then(res => res.json())
       .then(d => setData(prev => [...prev, ...d]))
+      .catch(err => console.error('Failed to fetch students:', err))
   }, [])
 
 

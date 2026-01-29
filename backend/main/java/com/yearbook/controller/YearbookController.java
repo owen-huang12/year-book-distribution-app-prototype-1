@@ -33,4 +33,11 @@ public class YearbookController {
         StudentEntry saved = studentRepository.save(student);
         return ResponseEntity.status(HttpStatus.CREATED).body(saved);
     }
+
+    @GetMapping("/students/search")
+    public ResponseEntity<StudentEntry> searchStudent(@RequestParam String studentId) {
+        return studentRepository.findByStudentId(studentId)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
 }

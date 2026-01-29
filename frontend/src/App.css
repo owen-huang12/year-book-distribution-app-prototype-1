@@ -65,7 +65,7 @@ h1{
   text-align: center;
 }
 h2{
-  text-align: left;
+  text-align: center;
 }
 
 /* Textbox CSS */
@@ -73,5 +73,31 @@ h2{
 input{
   text-align: center;
   border: black solid 1px;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Search Bar CSS */
+
+.scan-page {
+  text-align: center;
+}
+
+/* Container for input */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Scan input only (NOT all inputs) */
+.search-bar .scan-input {
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 320px;
+
+  text-align: center;
+  border: 1px solid black;
   border-radius: 10px;
 }
